@@ -84,7 +84,7 @@ author:
   avatar           : "profile.jpg"
   bio              : "NLP Researcher"
   location         : "Mexico City, Mexico"
-  employer         : "[Centro de Investigación en Computación Instituto Politécnico Nacional](https://www.cic.ipn.mx/)"
+  employer         : [Centro de Investigación en Computación Instituto Politécnico Nacional](https://www.cic.ipn.mx/)
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=es"
   email            : "messay.gemeda@gmail.com"
