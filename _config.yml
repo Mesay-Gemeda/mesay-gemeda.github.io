@@ -11,7 +11,7 @@ title                    : "Mesay - መሳይ"
 title_separator          : "-"
 name                     : &name "Mesay Gemeda (መሳይ ገመዳ)"
 description              : &description "personal description"
-url                      : https://mesay-gemeda.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mesay-gemeda.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Mesay-Gemeda/mesay-gemeda.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -84,7 +84,7 @@ author:
   avatar           : "logo.jpg"
   bio              : "NLP Researcher"
   location         : "Mexico City, Mexico"
-  employer         : "CIC-IPN"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=es"
   email            : "messay.gemeda@gmail.com"
