@@ -12,10 +12,7 @@ I am a PhD student at the [Centro de Investigación en Computación (CIC), Insti
 
 Currently, my research work revolves around the development of multilingual hate speech detection systems for low-resource languages. I am passionate about leveraging NLP techniques and machine learning algorithms to tackle the challenges associated with identifying and combatting hate speech in diverse linguistic contexts.
 
-Throughout my academic journey, I have gained valuable expertise in NLP methodologies, data analysis, and programming languages such as Python. I am dedicated to expanding my knowledge and skills in order to make meaningful contributions to the field of NLP and promote responsible and ethical use of technology in addressing societal issues.
-
 Feel free to explore and learn more about my work in the field of NLP. If you have any questions, collaborations, or opportunities, please don't hesitate to reach out to me.
 
 Thank you for visiting!
-
 Mesay Gemeda Yigezu
