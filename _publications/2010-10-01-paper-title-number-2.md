@@ -1,15 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "A parallel corpora for bi-directional neural machine translation for low resourced ethiopian languages"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2019-bayespostest
+date: 2021-11-22
+venue: ' International Conference on Information and Communication Technology for Development for Africa (ICT4DA)'
+paperurl: '[/files/pdf/research/BayesPostEst.pdf](https://www.researchgate.net/profile/Michael-Woldeyohannis/publication/354551431_A_Parallel_Corpora_for_bi-directional_Neural_Machine_Translation_for_Low_Resourced_Ethiopian_Languages/links/61530006154b3227a8b4f547/A-Parallel-Corpora-for-bi-directional-Neural-Machine-Translation-for-Low-Resourced-Ethiopian-Languages.pdf)https://www.researchgate.net/profile/Michael-Woldeyohannis/publication/354551431_A_Parallel_Corpora_for_bi-directional_Neural_Machine_Translation_for_Low_Resourced_Ethiopian_Languages/links/61530006154b3227a8b4f547/A-Parallel-Corpora-for-bi-directional-Neural-Machine-Translation-for-Low-Resourced-Ethiopian-Languages.pdf'
+link: '[https://doi.org/10.21105/joss.01722](https://ieeexplore.ieee.org/abstract/document/9672230)'
+citation: 'Atnafu Lambebo Tonja, Michael Melese Woldeyohannis, Mesay Gemeda Yigezu. 2021. &quot;A parallel corpora for bi-directional neural machine translation for low resourced ethiopian languages.&quot; <i> International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i>'
 ---
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
