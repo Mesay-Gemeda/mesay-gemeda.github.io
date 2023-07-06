@@ -17,6 +17,7 @@ Education
 
 Work experience
 ======
+
 2017-2022 | A lecturer at Wachemo University, Faculty of Computing and Enginerring, Hosanna, Ethiopia.
 
 2018(Part Time) | A lecturer at Wolaita Sodo University, Faculty of Computing and Enginerring, Sodo, Ethiopia.
