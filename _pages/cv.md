@@ -17,39 +17,13 @@ Education
 
 Work experience
 ======
-2017:2022 | A lecturer at Wachemo University, Faculty of Computing and Enginerring, Hosanna, Ethiopia.
+2017-2022 | A lecturer at Wachemo University, Faculty of Computing and Enginerring, Hosanna, Ethiopia.
+
 2018(Part Time) | A lecturer at Wolaita Sodo University, Faculty of Computing and Enginerring, Sodo, Ethiopia.
+
 2019-2021(Part Time) | A lecturer at Infolink College, Wolaita Sodo Campus, Sodo, Ethiopia.
+
 2020-2021(Part Time) | A lecturer at Pharma College, Wolaita Sodo Campus, Sodo, Ethiopia.
+
 2022| IT -Expert at Awash Bank, Wolaita Sodo District, Ethiopia.
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
