@@ -15,4 +15,5 @@ Currently, my research work revolves around the development of multilingual hate
 Feel free to explore and learn more about my work in the field of NLP. If you have any questions, collaborations, or opportunities, please don't hesitate to reach out to me.
 
 Thank you for visiting!
+
 Mesay Gemeda Yigezu
