@@ -1,7 +1,7 @@
 ---
 title: "A parallel corpora for bi-directional neural machine translation for low resourced ethiopian languages"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/parallel
 date: 2021-11-22
 venue: ' International Conference on Information and Communication Technology for Development for Africa (ICT4DA)'
 paperurl: ' http://mesay-gemeda.github.io/files/paper2.pdf'
