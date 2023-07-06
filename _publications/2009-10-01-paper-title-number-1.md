@@ -1,7 +1,7 @@
 ---
 title: "Early Ginger Disease Detection Using Deep Learning Approach"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/number-1
 date: August 27–29, 2021
 venue: 'International Conference, ICAST 2021'
 
