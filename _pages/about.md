@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello there, I'm Mesay!"
+title: "👋 Hello there (ሰላም) 👋"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
