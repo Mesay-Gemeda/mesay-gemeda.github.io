@@ -1,7 +1,7 @@
 ---
 title: "Multilingual neural machine translation for low resourced languages: Ometo-english"
 collection: publications
-permalink: /publication/mul
+permalink: /publication/multilingual
 date: 2021/11/22
 venue: 'International Conference on Information and Communication Technology for Development for Africa (ICT4DA)'
 paperurl: 'http://mesay-gemeda.github.io/files/paper2.pdf'
