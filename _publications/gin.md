@@ -1,7 +1,7 @@
 ---
 title: "Ginger Disease Detection Using a Computer Vision Pre-trained Model"
 collection: publications
-permalink: /publication/vision
+permalink: /publication/gin
 date: September, 2023
 venue: ' Innovations in Machine and Deep Learning'
 paperurl: 'http://mesay-gemeda.github.io/files/paper8.pdf'
