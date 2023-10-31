@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: 'https://mesay-gemeda.github.io/files/cv.pdf'
 author_profile: true
 redirect_from:
   - /resume
@@ -28,4 +28,5 @@ Work experience
 
 2022| IT -Expert at Awash Bank, Wolaita Sodo District, Ethiopia.
   
-For further information you can download my CV here: https://mesay-gemeda.github.io/files/cv.pdf
+For further information you can download my CV here: 
+permalink: 'https://mesay-gemeda.github.io/files/cv.pdf'
