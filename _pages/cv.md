@@ -28,3 +28,5 @@ Work experience
 
 2022| IT -Expert at Awash Bank, Wolaita Sodo District, Ethiopia.
   
+For further information you can download
+paperurl: 'https://mesay-gemeda.github.io/files/cv.pdf'
