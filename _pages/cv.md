@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: 'https://mesay-gemeda.github.io/files/cv.pdf'
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
