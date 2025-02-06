@@ -2,7 +2,7 @@
 title: "Design and Develop Automatic Parts of Speech Tagger for Siltigna Language"
 collection: publications
 permalink: /publication/design1
-date: 2024
+date: December, 2024
 venue: '2024 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)'
 paperurl: 'https://mesay-gemeda.github.io/files/paper20.pdf'
 link: 'https://ieeexplore.ieee.org/abstract/document/10777240'
