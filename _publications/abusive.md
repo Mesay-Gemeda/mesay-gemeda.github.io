@@ -2,7 +2,7 @@
 title: "Abusive Comment Detection using Deep Learning Approach"
 collection: publications
 permalink: /publication/abusive
-date: Sep, 2023
+date: Sep,2023
 venue: 'Proceedings of the Third Workshop on Speech and Language Technologies for Dravidian Languages'
 paperurl: 'https://mesay-gemeda.github.io/files/paper12.pdf'
 link: 'https://aclanthology.org/2023.dravidianlangtech-1.36.pdf'
