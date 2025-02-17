@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Information Technology, Arbaminch University, Ethiopia, 2016
 * M.S. in Information Technology, Wolaita Sodo University, Ethiopia, 2021
-* Ph.D in Computer Science, National Polytechnic Intitute( IPN), Computer research center(NLP Lab), Mexico City, Mexico.(Student)
+* Ph.D candidate in Computer Science, National Polytechnic Intitute( IPN), Computer research center(NLP Lab), Mexico City, Mexico.
 
 Work experience
 ======
