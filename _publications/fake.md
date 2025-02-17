@@ -1,5 +1,5 @@
 ---
-title: "Habesha@ DravidianLangTech 2024: Detecting Fake News Detection in Dravidian Languages using Deep Learning"
+title: "Detecting Fake News Detection in Dravidian Languages using Deep Learning"
 collection: publications
 permalink: /publication/fake
 date: Sep,2024
