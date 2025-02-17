@@ -2,7 +2,7 @@
 title: "EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation"
 collection: publications
 permalink: /publication/ethio_llm
-date: Sep,2024
+date: Sep, 2024
 venue: 'LREC-Coling 2024'
 paperurl: 'https://mesay-gemeda.github.io/files/paper14.pdf'
 link: 'https://ieeexplore.ieee.org/abstract/document/10302243'
