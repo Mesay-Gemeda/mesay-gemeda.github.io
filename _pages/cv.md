@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Information Technology, Arbaminch University, Ethiopia, 2016
 * M.S. in Information Technology, Wolaita Sodo University, Ethiopia, 2021
-* Ph.D candidate in Computer Science, National Polytechnic Intitute( IPN), Computer research center(NLP Lab), Mexico City, Mexico.
+* Ph.D in Computer Science, National Polytechnic Intitute( IPN), Computer research center(NLP Lab), Mexico City, Mexico, 2025.
 
 Work experience
 ======
@@ -28,4 +28,4 @@ Work experience
 
 2020-2022 (Part Time - Remotely) | IT -Expert, Data analyst and science at Awash Bank, Wolaita Sodo District, Ethiopia.
   
-For further information you can download my CV [here](https://mesay-gemeda.github.io/files/CV.pdf)
+For further information you can download my CV [here](https://mesay-gemeda.github.io/files/Mesay Gemeda-CV)
