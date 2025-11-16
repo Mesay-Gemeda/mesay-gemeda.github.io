@@ -28,4 +28,4 @@ Work experience
 
 2020-2022 (Part Time - Remotely) | IT -Expert, Data analyst and science at Awash Bank, Wolaita Sodo District, Ethiopia.
   
-For further information you can download my CV [here](https://mesay-gemeda.github.io/files/Mesay Gemeda-CV)
+For further information you can download my CV [here](https://mesay-gemeda.github.io/files/MesayCV)
