@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog & Conferences | Mesay G Yigezu (Ph.D)</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">Academic Blog</div>
+
+      <nav class="navlinks" aria-label="Secondary">
+        <a href="index.html" class="navlink">HOME</a>
+        <a href="publications.html" class="navlink">PUBLICATION</a>
+      </nav>
+
+      <div class="navright">
+        <button class="iconbtn" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+    <div class="divider"></div>
+  </header>
+
+  <main class="section container">
+    <h2 class="section-title" style="font-size: 28px;">ACADEMIC TRAVELS</h2>
+    <p class="section-sub">Photos and highlights from international NLP conferences and research visits.</p>
+
+    <div class="blog-grid">
+      
+      <article class="blog-card">
+        <img src="1.jpg" alt="Awarded PhD with Distinction" class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">November 2025</div>
+          <h3 class="blog-conf-name">Awarded PhD with Distinction </h3>
+          <p class="blog-desc">The (CIC-IPN) Computer Research Center recognized me for completing my PhD with Distinction, Mexico city, México.</p>
+        </div>
+      </article>
+      
+      <article class="blog-card">
+        <img src="12.jpg" alt="With prof.Jugal Kalita @ UCCS" class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">August 2024</div>
+          <h3 class="blog-conf-name">With prof.Jugal Kalita @ UCCS</h3>
+          <p class="blog-desc">Under the supervision of Prof. Jugal Kalita, I attended a research stay at UCCS in Colorado Springs, USA.</p>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <img src="11.jpg" alt="Collaborated with int. students" class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">August 2024</div>
+          <h3 class="blog-conf-name">Networking with colleagues</h3>
+          <p class="blog-desc">Networking with colleagues at UCCS, including Dr. Melkamu A. Mersha, Dr. Ali K. Alshami, and Dr. Sanghyun Byun @ USA.</p>
+        </div>
+      </article>
+       <article class="blog-card">
+        <img src="7.jpg" alt="Attending and Presenting our findings at NeurIPS 2023 Conference, " class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">December 2023</div>
+          <h3 class="blog-conf-name">With Andrew Ng ,Founder of  DeepLearning.AI and co-founder of Coursera</h3>
+          <p class="blog-desc">Attending NeurIPS 2023 Conference with the most influential person in digital world Dr. Andrew Ng,Founder of  DeepLearning.AI and co-founder of Coursera </p>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <img src="9.jpg" alt="Presenting research at the UCCS Symposium, Colorado" class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">December 2023</div>
+          <h3 class="blog-conf-name">Attending and Presenting @ NeurIPS 2023</h3>
+          <p class="blog-desc">Attending and Presenting our findings at NeurIPS 2023 Conference and networking with Dr. Martha Yifru and Dr. Michael Melese.  USA.</p>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="4.jpg" alt="Awarded first place prize" class="blog-img clickable">
+        <div class="blog-content">
+          <div class="blog-date">November 2023</div>
+          <h3 class="blog-conf-name">Winning the first Place @ MICAI Conference</h3>
+          <p class="blog-desc">Presenting our latest findings on detecting multilingual hate speech targeting immigrants and women on Twitter @ Mérida, Yucatán, México. </p>
+        </div>
+      </article>
+      </div>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" id="closeBtn">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mesay Gemeda Yigezu (Ph.D)</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
