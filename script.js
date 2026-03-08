@@ -152,3 +152,25 @@ if (closeNews && newsBar) {
 if (sessionStorage.getItem("announcementSeen") === "true") {
   if (newsBar) newsBar.style.display = "none";
 }
+
+const menuToggle = document.getElementById("menuToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+
+if (menuToggle && mobileMenu) {
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("open");
+    const expanded = mobileMenu.classList.contains("open");
+    menuToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+    menuToggle.innerHTML = expanded
+      ? '<i class="fa-solid fa-xmark"></i>'
+      : '<i class="fa-solid fa-bars"></i>';
+  });
+
+  mobileMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    });
+  });
+}
