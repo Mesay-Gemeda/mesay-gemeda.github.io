@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mesay G Yigezu (Ph.D). | Portfolio</title>
+  <title>Mesay G Yigezu (Ph.D) | Portfolio</title>
 
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet"
@@ -11,17 +11,6 @@
 </head>
 
 <body>
-  <!-- <div class="news-bar" id="newsBar">
-    <div class="container news-content">
-      <span class="news-badge"><i class="fa-solid fa-award"></i> ANNOUNCEMENT</span>
-      <p class="news-text">
-        Exciting News! My latest research paper on <strong>Amharic NLP</strong> has been accepted. 
-        <a href="publications.html">View Details &rarr;</a>
-      </p>
-      <button class="news-close" id="closeNews" aria-label="Close">&times;</button>
-    </div>
-  </div> -->
-
   <header class="header" id="top">
     <div class="container nav">
       <div class="brand">Mesay (መሳይ) G Yigezu (Ph.D)</div>
@@ -44,62 +33,64 @@
         <button class="iconbtn" id="themeToggle" aria-label="Toggle dark mode">
           <i class="fa-solid fa-moon"></i>
         </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation">
+      <a href="#home" class="navlink">HOME</a>
+      <a href="#skills" class="navlink">SKILLS</a>
+      <a href="#experience" class="navlink">EXPERIENCE</a>
+      <a href="publications.html" class="navlink">PUBLICATION</a>
+      <a href="blog.html" class="navlink">BLOG</a>
+      <a href="#contact" class="navlink">CONTACT</a>
+    </nav>
+
     <div class="divider"></div>
   </header>
 
   <section class="hero container" id="home">
-    <!-- <div class="hero-left">
+    <div class="hero-left">
       <div class="photo-wrap">
-        <img class="photo" src="photo/profile.jpg" alt="Mesay G Yigezu(Ph.D)" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
-        <div class="photo-fallback" style="display:none;">Add profile.jpg</div>
         <div class="circle-bg"></div>
+        <img
+          class="photo"
+          src="photo/profile.jpg"
+          alt="Mesay G Yigezu (Ph.D)"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+        />
+        <div class="photo-fallback" style="display:none;">Add profile.jpg</div>
         <div class="blob"></div>
       </div>
-    </div> -->
-    <div class="hero-left">
 
-  <div class="photo-wrap">
-    <img class="photo" src="profile.jpg" alt="Mesay G Yigezu (Ph.D)" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
-  
-  <div class="circle-bg"></div>
-</div>
-  
-
-  <!-- Social Media Icons -->
-  <div class="profile-social">
-
-    <a href="https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=en" target="_blank">
-      <i class="fa-solid fa-graduation-cap"></i>
-    </a>
-
-    <a href="https://www.linkedin.com/in/mesay-gemeda-yigezu/" target="_blank">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-
-    <a href="https://github.com/Mesay-Gemeda" target="_blank">
-      <i class="fa-brands fa-github"></i>
-    </a>
-
-    <a href="https://orcid.org/my-orcid?orcid=0000-0003-1913-2612/" target="_blank">
-      <i class="fa-brands fa-orcid"></i>
-    </a>
-
-    <a href="mailto:messay.gemeda@gmail.com">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
-
-  </div>
-
-</div>
+      <div class="profile-social">
+        <a href="https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://orcid.org/" target="_blank" rel="noopener" aria-label="ORCID">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
+        <a href="mailto:messay.gemeda@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
 
     <div class="hero-right">
       <p class="hello">Hello, I'm Mesay</p>
       <h1 class="title">NLP Researcher</h1>
 
       <p class="bio">
-        Ph.D. in Computer Science specializing in NLP and machine learning, advised by Prof. Alexander Gelbukh and Prof. Olga Kolesnikova. My research focuses on multilingual hate speech detection for low-resource languages, with an emphasis on cross-lingual transfer learning, dataset quality, and fairness-aware modeling. I design transformer-based models and implement data-centric methodologies to advance explainable AI (XAI) and ethical reliability in multilingual systems. Experienced in university teaching and student supervision, my broader interests include responsible AI and digital ethics across domains.
+        Ph.D. in Computer Science specializing in Natural Language Processing and machine learning, advised by Prof. Alexander Gelbukh and Prof. Olga Kolesnikova. My research focuses on multilingual hate speech detection for low-resource languages, with an emphasis on cross-lingual transfer learning, dataset quality, fairness-aware modeling, explainable AI, and responsible AI.
       </p>
 
       <a class="btn" href="#skills">ABOUT ME</a>
@@ -112,63 +103,71 @@
 
   <section class="section container" id="skills">
     <h2 class="section-title">SKILLS</h2>
-    <p class="section-sub">Technical expertise in AI and Research.</p>
+    <p class="section-sub">Technical expertise in AI and research.</p>
+
     <div class="cards">
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
         <h3>NLP</h3>
-        <p>Build text classification systems, implement machine translation pipelines, develop NER and text summarization tools, and create conversational AI chatbots.</p>
+        <p>Build text classification systems, machine translation pipelines, named entity recognition, summarization tools, and conversational AI solutions.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
-        <h3>Explainable AI (XAI)</h3>
-        <p>Identify influential features and their scores, audit machine learning models for transparency, and ensure algorithmic compliance with regulations.</p>
+        <h3>Explainable AI</h3>
+        <p>Analyze influential features, interpret predictions, audit models for transparency, and support trustworthy machine learning workflows.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-language"></i></div>
         <h3>Multilingual Models</h3>
-        <p>Fine-tune transformer-based models, manage cross-lingual transfer learning, and optimize tokenization and vocabulary for diverse languages.</p>
+        <p>Fine-tune transformer-based models, support cross-lingual transfer, and optimize tokenization and vocabulary for diverse languages.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
         <h3>Data Science</h3>
-        <p>Design and implement predictive models, engineer features from raw data, deploy machine learning models, and perform rigorous A/B testing.</p>
+        <p>Design predictive models, engineer features, evaluate performance, and develop data-driven machine learning solutions.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
         <h3>Data Analysis</h3>
-        <p>Build interactive dashboards, conduct exploratory data analysis (EDA), generate performance reports, and recommend data-backed business improvements.</p>
+        <p>Conduct exploratory data analysis, build dashboards, generate insights, and create evidence-based reports.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-cloud"></i></div>
         <h3>Cloud Engineering</h3>
-        <p>Architect and deploy virtual servers on AWS, implement Infrastructure as Code (IaC), set up CI/CD pipelines, and monitor cloud resources.</p>
+        <p>Deploy virtual infrastructure, support CI/CD workflows, manage cloud services, and monitor system performance.</p>
       </div>
-       <div class="card">
+
+      <div class="card">
         <div class="card-icon"><i class="fa-solid fa-user-gear"></i></div>
         <h3>System Administration</h3>
-        <p>Install, configure, and maintain operating systems; manage Active Directory and IAM; and implement backup and disaster recovery strategies.</p>
+        <p>Configure operating systems, support IAM and directory services, and maintain reliable backup and recovery processes.</p>
       </div>
-       <div class="card">
+
+      <div class="card">
         <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
         <h3>Network Engineering</h3>
-        <p>Configure and manage routers, switches, and firewalls; design and implement VPNs; monitor network traffic; and execute infrastructure upgrades.</p>
+        <p>Configure routers, switches, VPNs, and network services while supporting infrastructure upgrades and availability.</p>
       </div>
+
       <div class="card">
         <div class="card-icon"><i class="fa-solid fa-scale-balanced"></i></div>
-        <h3>Digital & AI Ethics</h3>
-        <p>Develop ethical guidelines for AI, conduct impact assessments, advise on privacy-preserving techniques, and monitor algorithms for discriminatory outcomes.</p>
+        <h3>Digital &amp; AI Ethics</h3>
+        <p>Support fairness, privacy, accountability, and ethical review in AI systems and multilingual technology design.</p>
       </div>
     </div>
-</section>
+  </section>
 
-<section class="section container" id="experience">
+  <section class="section container" id="experience">
     <h2 class="section-title">EXPERIENCE</h2>
     <p class="section-sub">Professional journey in academia and industry.</p>
 
     <div class="timeline">
       <div class="t-item">
-        <div class="dot"></div>
         <div class="t-card">
           <h3>Research Scholar</h3>
           <div class="company">University of Colorado Colorado Springs (UCCS)</div>
@@ -180,7 +179,6 @@
       </div>
 
       <div class="t-item">
-        <div class="dot"></div>
         <div class="t-card">
           <h3>Lecturer</h3>
           <div class="company">Wachemo University, Ethiopia</div>
@@ -194,7 +192,6 @@
       </div>
 
       <div class="t-item">
-        <div class="dot"></div>
         <div class="t-card">
           <h3>IT Expert</h3>
           <div class="company">Awash Bank, Ethiopia</div>
@@ -206,11 +203,10 @@
       </div>
 
       <div class="t-item">
-        <div class="dot"></div>
         <div class="t-card">
           <h3>Junior Network Engineer (Part-time)</h3>
           <div class="company">Meba General ICT Solution Association, Ethiopia</div>
-          <div class="date">04/2017 – 06/2021</div>
+          <div class="date">04/2017 - 06/2021</div>
           <ul>
             <li>Designed IP addressing schemes and configured routers, proxy servers, switches, and WAN accelerators.</li>
             <li>Managed DNS/DHCP services and ensured high network availability.</li>
@@ -220,23 +216,22 @@
       </div>
 
       <div class="t-item">
-        <div class="dot"></div>
         <div class="t-card">
           <h3>Lecturer (Part-time)</h3>
           <div class="company">Wolaita Sodo University, Ethiopia</div>
-          <div class="date">01/2019 – 01/2020</div>
+          <div class="date">01/2019 - 01/2020</div>
           <ul>
             <li>Delivered lectures and technical workshops on IT-related topics.</li>
             <li>Assisted in curriculum development and departmental academic planning.</li>
           </ul>
         </div>
       </div>
-      
     </div>
-</section>
+  </section>
 
-  <!-- <section class="section container" id="contact">
+  <section class="section container" id="contact">
     <h2 class="section-title">CONTACT ME</h2>
+
     <div class="contact-grid">
       <div class="contact-left">
         <div class="info-circle">
@@ -244,67 +239,39 @@
         </div>
       </div>
 
-      <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/mykdqnyn" method="POST">
         <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <input type="text" name="_gotcha" style="display:none" />
         <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
         <button class="btn wide" type="submit">SEND MESSAGE</button>
       </form>
     </div>
-  </section> -->
-
-
-  <section class="section container" id="contact">
-  <h2 class="section-title">CONTACT ME</h2>
-  <div class="contact-grid">
-    <div class="contact-left">
-      <div class="info-circle">
-        <i class="fa-solid fa-envelope"></i>
-      </div>
-    </div>
-
-    <form class="contact-form" action="https://formspree.io/f/mykdqnyn" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="_replyto" placeholder="Your Email" required />
-      
-      <input type="text" name="_gotcha" style="display:none" />
-
-      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-      
-      <button class="btn wide" type="submit">SEND MESSAGE</button>
-    </form>
-  </div>
-</section>
-
-  <!-- <footer class="footer">
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Mesay Gemeda Yigezu (Ph.D)</span>
-    </div>
-  </footer> -->
+  </section>
 
   <footer class="footer">
-  <div class="container footer-inner">
-    <span>© <span id="year"></span> Mesay Gemeda Yigezu (Ph.D)</span>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mesay Gemeda Yigezu (Ph.D)</span>
 
-    <div class="footer-social">
-      <a href="https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
-        <i class="fa-solid fa-graduation-cap"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/mesay-gemeda-yigezu/" target="_blank" rel="noopener" aria-label="LinkedIn">
-        <i class="fa-brands fa-linkedin-in"></i>
-      </a>
-      <a href="https://github.com/Mesay-Gemeda" target="_blank" rel="noopener" aria-label="GitHub">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a href="https://x.com/Mesay_Gemeda" target="_blank" rel="noopener" aria-label="X">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-      <a href="mailto:messay.gemeda@gmail.com" aria-label="Email">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
+      <div class="footer-social">
+        <a href="https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://orcid.org/" target="_blank" rel="noopener" aria-label="ORCID">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
+        <a href="mailto:messay.gemeda@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   <script src="script.js"></script>
 </body>
